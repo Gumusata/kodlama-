@@ -1,0 +1,11 @@
+body {background-color: #FFFFCC; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 120%; background-image: zemin.jpg;}
+H1 { text-align: center; color: #ff0000;}
+H3,H4,H5 {color:green;}
+P {color: brown; text-align: justify;}
+PRE { Font-size: 100%; color: blue;font:bold;}
+SELECT {Font-size: 12px; color:blue;}
+A:link {COLOR: blue"; TEXT-DECORATION:none;}
+A:visited {COLOR: red; TEXT-DECORATION:none;}
+A:hover {COLOR: green;}
+A:active {COLOR: black;"}
+

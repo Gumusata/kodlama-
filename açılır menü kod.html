@@ -1,0 +1,50 @@
+<style>
+nav.anamenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgray,
+
+}
+nav.anamenu li {float:left;}
+nav.anamenu li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+nav.anamenu li a:hover {
+    background-color: darkgrey;
+    color:white;
+}
+nav.anamenu li.acilirmenu {display: inline-block;}
+nav.anamenu div.altmenu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 px 8 px 10px 2px  rgba {0,0,0,0,2}
+}
+nav.anamenu div.altmenu a:hover {background-color: #f1f1f1}
+nav.anamenu li.acilirmenu:hover diiv.altmenu {display: block;}
+
+</style>
+<nav class="anamenu">
+    <ul>
+        <li><a href="#">Bağlantı 1</a></li>
+        <li><a href="#">Bağlantı 2</a></li>
+        <li class="acilirmenu">
+        <a href="#"Bağlantı 3
+        <img src="resimler/altmenu.png" style="width="12px;"/>
+        </a>
+            <div class="altmenu">
+                <a href="#">Alt Bağlantı 1</a>
+                <a href="#">Alt Bağlantı 2</a>
+                <a href="#">Alt Bağlantı 3</a>
+            </div>
+        </li>
+    </ul>
+</nav>

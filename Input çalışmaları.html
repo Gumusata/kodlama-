@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> İnput Özellikleri </title>
+</head>
+<body>
+    <form>
+        İsim<br>
+        <input type="text" name="ad" required><br>
+        Soyisim<br>
+        <input type="text" name="soyad" required>
+    </form>
+    <form>
+        Şifrenizi giriniz <input type="password" name="şifre">
+        <input type="password" name="ad" autocomplete="on">
+    </form>
+    <form action="form.php">
+        Telefon numaranız:<input type="tel" name="telno" placeholder="0 5XX XXX XX XXX"><br>
+        <input type="submit">
+    </form>
+<form>
+    E-posta adresiniz: <input type="email" name="email">
+    <input type="submit">
+    </form>
+    <form action="demo.asp">
+        Doğum tarihiniz: <input type="date" name="dogumgunu">
+        <input type="submit">
+        
+    </form>
+<form action="sayfaniz.asp">
+    Web adresiniz:<input type="url" name="sayfa"><br>
+    <input type="submit">
+    </form>
+    <form action="demo_form.asp">
+        <input type="checkbox" name="arac1" value="bisiklet" checked>Bisiklet<br>
+        <input type="checkbox" name="arac2" value="taksi">Taksi<br>
+        <input type="checkbox" name="arac3" value="tekne">Tenke<br>
+    </form>
+    <form action="kayit.php">
+        Cinsiyetiniz<br>
+        <input type="radio" name="cinsiyet" value="bay">Bay<br>
+        <input type="radio" name="cinsiyet" value="bayan">Bayan<br>
+        <input type="submit" value="Gönder">
+    </form>
+    <br>
+        <form action="kayit.php">
+        Cinsiyetiniz:<br>
+        <input type="radio" name="cinsiyet" value="bay">Bay<br>
+        <input type="radio" name="cinsiyet" value="bayan">Bayan<br>
+        <input type="submit" name="Gonderdugmesi" formaction="cinsiyet.php" value="Gönder">
+            </form>
+    <form action="adsoyad.asp">
+        Adınız: <br>
+        <input type="text" name="isim"><br>
+        Soyadınız: <br>
+        <input type="text" name="soyisim"><br>
+        <input type="image" src="gondersimgesi.png" alt="Gönder" width="55" height="55">
+    </form>
+    <br>
+    <br>
+    <form action="bilgiler.php">
+        E-postanız: <input type="text" name="email"><br>
+        Adresiniz: <input type="text" name="Adres"><br>
+        <input type="radio" name="ogrenimdurumu" value="ilkokul">İlkokul<br>
+        <input type="radio" name="ogrenimdurumu" value="ortaokul"> Ortaokul<br>
+        <input type="radio" name= "ogrenimdurumu" value="Diger"> Diğer<br>
+        <input type="submit" value="Gönder">
+        <input type="reset" value="Resetle">
+    </form>
+<form>
+    <input type="button" value="Mesaj için tıkla" onclick="Mesaj ()">
+</form>
+<script>
+function Mesaj() {
+    alert ("Merhaba Dünya!");
+}
+    </script>
+<form action="resim.php">
+    Siteye kayıt için bir resim yükleyin:
+    <input type="file" name="resim">
+    <input type="submit" name="gonderdügmesi" value="Gönder">
+</form>
+<form action="takim.asp">
+    Tuttuğunuz takım:<input type="text" name="takim"><br>
+    <input type="hidden" name="ulke"value="Turkye">
+    <input type="submit" value="Gönder">
+</form>
+<form action="siparis.asp">
+    Pastanız ne renk olsun?: <input type="color" name="pastarengi"><br>
+    <input type="submit">
+</form>
+<br>
+<br>
+
+<form action="siparis.asp">
+Ürün sayısı? 1<input type="range" name="adet" value="1" min="1" max="5">5
+<input type="submit" value="Ürünü onaylar">
+</form>
+<br>
+<br>
+
+<form action="adet.asp">
+    Bir sayı girin:<br>
+    <input type="number" value="4" name="sayi" min="1" max="10" step="2">
+    <input type="submit">
+</form>
+<form action="arama.asp">
+    Ara:<br>
+    <input type="search" name="aramayap">
+    <input type="submit">
+    </form>
+    
+</body>
+</html>

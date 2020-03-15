@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Button</title>
+</head>
+<body>
+    <form action="hesap.php" method="POST">
+        <p>
+            Adınız:<br><input type="text" name="firsthame"><br>
+            Soyadınız:<br><input type="text" name="lastname"><br>
+            Eposta adresiniz: <br><input type="text" name="email"><br>
+            <br>
+            <button name="submit" type="submit" value="gonder">
+            <img width="70" height="55" src="gondersimgesi.png"/>Gönder
+        </button>
+        <button name="reset" type="reset" value="resetle">
+            <img width="55" height="55" src="reset.gif"/>Sıfırla
+            </button>
+            <button name="Merhaba" type="button" value="Merhaba" onclick="mesaj()">
+            <img width="55" height="55" src="merhaba.gif"/>Merhaba de
+                 
+        </button>
+        </p>
+    </form>
+    <script>
+    function mesaj () {
+        alert ("Merhaba");
+    }
+    </script>
+</body>
+</html>
